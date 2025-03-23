@@ -68,7 +68,7 @@ class Transaction {
 
   getParamType(param) {
     if(param?.components?.length) {
-      return `(${param.components.map((param)=>this.getParamType(param)).join(',')})`
+      return `(${param.components.map((param)=>this.getParamType(param)).join(',')})${param.arrayChildren!==null?"[]":""}`
     } else {
       return param.type
     }

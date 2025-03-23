@@ -10,7 +10,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rm -rf dist && rollup -c rollup.module.config.js && rollup -c rollup.module.evm.config.js && rollup -c rollup.module.solana.config.js",
+    "build": "rollup -c rollup.module.config.js",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint:fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
     "dev": "rollup -c rollup.dev.config.js -w",
@@ -30,13 +30,12 @@
     "url": "https://github.com/DePayFi/web3-wallets/issues"
   },
   "homepage": "https://depay.com",
-  "private": false,
   "peerDependencies": {
     "@depay/coinbase-wallet-sdk": "^3.8.4",
-    "@depay/solana-web3.js": "^1.26.0",
+    "@depay/solana-web3.js": "^1.98.0",
     "@depay/walletconnect-v2": "^2.12.2",
-    "@depay/web3-blockchains": "^9.6.2",
-    "@depay/web3-client": "^10.19.0",
+    "@depay/web3-blockchains": "^9.7.9",
+    "@depay/web3-client": "^10.19.3",
     "@depay/worldcoin-precompiled": "^1.2.0",
     "ethers": "^5.7.1"
   },
@@ -47,18 +46,12 @@
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7",
     "@depay/coinbase-wallet-sdk": "^3.8.4",
-    "@depay/solana-web3.js": "^1.26.0",
+    "@depay/solana-web3.js": "^1.98.0",
     "@depay/walletconnect-v2": "^2.11.3",
-    "@depay/web3-blockchains": "^9.6.2",
-    "@depay/web3-client": "^10.19.0",
-    "@depay/web3-client-evm": "^10.19.0",
-    "@depay/web3-client-solana": "^10.19.0",
-    "@depay/web3-mock": "^14.19.1",
-    "@depay/web3-mock-evm": "^14.19.1",
-    "@depay/web3-mock-solana": "^14.19.1",
-    "@depay/web3-tokens": "^10.4.1",
-    "@depay/web3-tokens-evm": "^10.4.1",
-    "@depay/web3-tokens-solana": "^10.4.1",
+    "@depay/web3-blockchains": "^9.7.9",
+    "@depay/web3-client": "^10.19.3",
+    "@depay/web3-mock": "^15.1.1",
+    "@depay/web3-tokens": "^10.4.4",
     "@depay/worldcoin-precompiled": "^1.2.0",
     "@rollup/plugin-commonjs": "^18.0.0",
     "@rollup/plugin-json": "^6.0.0",
@@ -89,5 +82,9 @@
   },
   "resolutions": {
     "clipboardy": "3.0.0"
-  }
+  },
+  "dependencies": {
+    "@depay/web3-wallets": "file:"
+  },
+  "packageManager": "yarn@4.4.1+sha512.f825273d0689cc9ead3259c14998037662f1dcd06912637b21a450e8da7cfeb4b1965bbee73d16927baa1201054126bc385c6f43ff4aa705c8631d26e12460f1"
 }
