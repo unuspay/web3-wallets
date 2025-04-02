@@ -24,12 +24,9 @@
     "crypto",
     "blockchain"
   ],
-  "author": "depay.com",
+  "author": "unuspay.com",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/DePayFi/web3-wallets/issues"
-  },
-  "homepage": "https://depay.com",
+  "homepage": "https://unuspay.com",
   "peerDependencies": {
     "@depay/coinbase-wallet-sdk": "^3.8.4",
     "@depay/solana-web3.js": "^1.98.0",

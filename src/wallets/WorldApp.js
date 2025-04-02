@@ -110,7 +110,7 @@ export default class WorldApp {
   fetchTransaction(transaction, payload, attempt = 1) {
     return new Promise((resolve, reject)=>{
       console.log('Before fetch')
-      fetch(`https://public.depay.com/transactions/worldchain/${payload.transaction_id}`, {
+      fetch(`https://unuspay.com/transactions/worldchain/${payload.transaction_id}`, {
         headers: { "Content-Type": "application/json" },
       }).then((response)=>{
         console.log('After fetch', response)
