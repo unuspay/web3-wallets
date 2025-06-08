@@ -16,6 +16,8 @@ export default class WindowSolana {
       !(window.phantom && !window.glow && !window.solana.isGlow && !['isBitKeep'].some((identifier)=>window.solana && window.solana[identifier])) &&
       // not Coin98
       !window.coin98 &&
+            // not Backpack
+      !window?.backpack?.isBackpack &&
       // not BitKeep
       !(window?.solana && window?.solana.isBitKeep) && 
       // not Glow

@@ -43,7 +43,7 @@ export default class WindowEthereum {
       // not Rabby
       !window?.ethereum?.isRabby &&
       // not Backpack
-      !window?.backpack?.isBackpack &&
+      !window?.ethereum?.isBackpack &&
       // not TokenPocket
       !window?.ethereum?.isTokenPocket && 
       // not BitKeep

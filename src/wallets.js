@@ -1,5 +1,5 @@
 /*#if _EVM
-
+import BackpackEVM from './wallets/Backpack.evm'
 import Binance from './wallets/Binance'
 import BraveEVM from './wallets/Brave.evm'
 import Coin98EVM from './wallets/Coin98.evm'
@@ -23,6 +23,7 @@ import WindowEthereum from './wallets/WindowEthereum'
 import WorldApp from './wallets/WorldApp'
 
 export default {
+  BackpackEVM,
   MetaMask,
   CoinbaseEVM,
   Binance,
@@ -50,7 +51,7 @@ export default {
 
 /*#elif _SOLANA
 
-import Backpack from './wallets/Backpack'
+import BackpackSVM from './wallets/Backpack.svm'
 import BraveSVM from './wallets/Brave.svm'
 import Coin98SVM from './wallets/Coin98.svm'
 import CoinbaseSVM from './wallets/Coinbase.svm'
@@ -66,7 +67,7 @@ import WindowSolana from './wallets/WindowSolana'
 
 export default {
   PhantomSVM,
-  Backpack,
+  BackpackSVM,
   MagicEdenSVM,
   Glow,
   Solflare,
@@ -84,7 +85,8 @@ export default {
 
 //#else */
 
-import Backpack from './wallets/Backpack'
+import BackpackEVM from './wallets/Backpack.evm'
+import BackpackSVM from './wallets/Backpack.svm'
 import Binance from './wallets/Binance'
 import BraveEVM from './wallets/Brave.evm'
 import BraveSVM from './wallets/Brave.svm'
@@ -128,7 +130,8 @@ export default {
   Binance,
   TrustEVM,
   TrustSVM,
-  Backpack,
+  BackpackEVM,
+  BackpackSVM,
   Glow,
   Solflare,
   Rabby,
