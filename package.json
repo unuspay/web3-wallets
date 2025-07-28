@@ -17,7 +17,7 @@
     "test:units": "yarn build && npx jest --no-cache",
     "test": "yarn test:units"
   },
-  "repository": "git@github.com:DePayFi/web3-wallets.git",
+   
   "keywords": [
     "web3",
     "wallets",
@@ -31,7 +31,7 @@
     "@depay/coinbase-wallet-sdk": "^3.8.4",
     "@depay/solana-web3.js": "^1.98.0",
     "@depay/walletconnect-v2": "^2.12.2",
-    "@depay/web3-blockchains": "^9.7.9",
+    "@depay/web3-blockchains": "*",
     "@depay/web3-client": "^10.19.3",
     "@depay/worldcoin-precompiled": "^1.2.0",
     "ethers": "^5.7.1"
@@ -45,7 +45,7 @@
     "@depay/coinbase-wallet-sdk": "^3.8.4",
     "@depay/solana-web3.js": "^1.98.0",
     "@depay/walletconnect-v2": "^2.11.3",
-    "@depay/web3-blockchains": "^9.7.9",
+    "@depay/web3-blockchains": "*",
     "@depay/web3-client": "^10.19.3",
     "@depay/web3-mock": "^15.1.1",
     "@depay/web3-tokens": "^10.4.4",
