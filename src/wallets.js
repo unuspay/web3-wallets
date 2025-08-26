@@ -20,7 +20,6 @@ import Uniswap from './wallets/Uniswap'
 import WalletConnectV2 from './wallets/WalletConnectV2'
 import WalletLink from './wallets/WalletLink'
 import WindowEthereum from './wallets/WindowEthereum'
-import WorldApp from './wallets/WorldApp'
 
 export default {
   BackpackEVM,
@@ -119,7 +118,6 @@ import WalletConnectV2 from './wallets/WalletConnectV2'
 import WalletLink from './wallets/WalletLink'
 import WindowEthereum from './wallets/WindowEthereum'
 import WindowSolana from './wallets/WindowSolana'
-import WorldApp from './wallets/WorldApp'
 
 export default {
   MetaMask,
