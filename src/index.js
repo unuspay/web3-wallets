@@ -23,7 +23,6 @@ const supported = [
   wallets.HyperPay,
   wallets.TokenPocket,
   wallets.ExodusEVM,
-  wallets.WorldApp,
 
   // standards
   wallets.WalletConnectV2,
@@ -84,7 +83,6 @@ const supported = [
   wallets.OKXSVM,
   wallets.ExodusEVM,
   wallets.ExodusSVM,
-  wallets.WorldApp,
 
   // standards
   wallets.WalletConnectV2,

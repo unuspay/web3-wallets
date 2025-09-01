@@ -40,7 +40,6 @@ export default {
   TokenPocket,
   ExodusEVM,
   PhantomEVM,
-  WorldApp,
 
   // standards
   WindowEthereum,
@@ -149,7 +148,6 @@ export default {
   TokenPocket,
   ExodusEVM,
   ExodusSVM,
-  WorldApp,
 
   // standards
   WindowEthereum,
