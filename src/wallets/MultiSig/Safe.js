@@ -21,7 +21,6 @@ const transactionApiBlockchainNames = {
   'avalanche': 'avalanche',
   'gnosis': 'gnosis-chain',
   'optimism': 'optimism',
-  'worldchain': 'optimism',
 }
 
 const explorerBlockchainNames = {
@@ -33,7 +32,6 @@ const explorerBlockchainNames = {
   'avalanche': 'avax',
   'gnosis': 'gno',
   'optimism': 'oeth',
-  'worldchain': 'oeth',
 }
 
 export default class Safe {
